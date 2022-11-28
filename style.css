@@ -1,0 +1,29 @@
+body{
+    max-width: 100%;
+   height:auto;
+    background-image: url("./images/bi.jpg");
+    width: 1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    margin: auto;
+}
+.container{
+    display:flex;
+    align-items: center;
+}
+.phrase{
+    flex:1;
+    font-size: xx-large;
+    color: rgb(209, 110, 110);
+}
+.list{
+    flex:1;
+    font-size: xx-large;
+}
+h1{
+    color: darkblue;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
